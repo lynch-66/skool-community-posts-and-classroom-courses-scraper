@@ -1,0 +1,119 @@
+[
+  {
+    "id": "aab147fa0ea4420d83e8d3a9214f5203",
+    "name": "roadmap-update",
+    "metadata": {
+      "action": 0,
+      "content": "Post content here...",
+      "comments": 2,
+      "upvotes": 50,
+      "title": "Roadmap Update",
+      "pinned": 1,
+      "imagePreview": "",
+      "imagePreviewSmall": "",
+      "videoLinksData": "[]",
+      "contributors": "[{\"id\":\"u1\",\"name\":\"helper\"}]",
+      "labels": "3916973e45d64416917aaba09edff141",
+      "hasNewComments": 1,
+      "lastComment": 1731431342139887000
+    },
+    "createdAt": "2024-11-07T23:26:18.04203Z",
+    "updatedAt": "2024-11-14T09:50:05.802436Z",
+    "groupId": "b575158c8d8240b88e9f13da74aa66cc",
+    "userId": "5222fdb103d340ecaf61d47f35302f52",
+    "postType": "generic",
+    "rootId": "aab147fa0ea4420d83e8d3a9214f5203",
+    "labelId": "3916973e45d64416917aaba09edff141",
+    "user": {
+      "id": "5222fdb103d340ecaf61d47f35302f52",
+      "name": "username",
+      "metadata": {
+        "actStatus": "hardcore",
+        "bio": "User bio...",
+        "pictureBubble": "https://example.com/bubble.png",
+        "pictureProfile": "https://example.com/profile.png",
+        "location": "Earth",
+        "linkWebsite": "https://example.com",
+        "linkYoutube": "https://youtube.com/@user"
+      },
+      "createdAt": "2020-05-14T00:51:12.09168Z",
+      "updatedAt": "2024-11-14T15:45:27.923959Z",
+      "firstName": "First",
+      "lastName": "Last"
+    },
+    "url": "https://www.skool.com/group-name/post-name",
+    "comments": [
+      {
+        "post": {
+          "id": "c1",
+          "metadata": {
+            "action": 0,
+            "content": "Comment content...",
+            "upvotes": 4,
+            "attachments": "att-1",
+            "attachments_data": "[{\"name\":\"file.pdf\"}]"
+          },
+          "created_at": "2024-11-07T23:28:36.995Z",
+          "updated_at": "2024-11-08T00:40:38.94154Z",
+          "user_id": "u2",
+          "post_type": "comment",
+          "parent_id": "",
+          "root_id": "aab147fa0ea4420d83e8d3a9214f5203",
+          "user": {
+            "id": "u2",
+            "name": "commenter",
+            "metadata": {
+              "bio": "Commenter bio",
+              "picture_bubble": "https://example.com/b.png",
+              "picture_profile": "https://example.com/p.png"
+            },
+            "created_at": "2023-05-14T00:51:12.09168Z",
+            "updated_at": "2024-10-14T15:45:27.923959Z",
+            "first_name": "Com",
+            "last_name": "Menter"
+          }
+        }
+      },
+      {
+        "post": {
+          "id": "c2",
+          "metadata": {
+            "content": "Reply to first comment",
+            "upvotes": 1
+          },
+          "created_at": "2024-11-07T23:30:36.995Z",
+          "updated_at": "2024-11-08T00:45:38.94154Z",
+          "user_id": "u3",
+          "post_type": "comment",
+          "parent_id": "c1",
+          "root_id": "aab147fa0ea4420d83e8d3a9214f5203",
+          "user": {
+            "id": "u3",
+            "name": "responder",
+            "metadata": {}
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "module",
+    "title": "Module Title",
+    "postTitle": "Specific Lecture Title",
+    "content": "Module content and description...",
+    "id": "unique-module-id",
+    "urlAjax": "https://api.skool.com/posts/module-id/comments",
+    "url": "https://www.skool.com/group-name/classroom/module-name",
+    "media": [
+      "https://www.loom.com/share/video-id"
+    ],
+    "courseMetaDetails": {
+      "id": "course-id",
+      "name": "course-name",
+      "title": "Course Title",
+      "createdAt": "2024-09-20T16:51:46.06926Z",
+      "updatedAt": "2024-11-12T23:47:47.319915Z"
+    },
+    "comments": []
+  }
+]
